@@ -71,6 +71,13 @@ mathjax:
   enable: false
   showPageOnRenderFinish: true 
   timeout: 1000 # Show page after 1000ms, even if mathjax doesn't finish rendering
+
+# Utterances is a lightweight comments widget built on GitHub issues. See https://utteranc.es/
+utterances:
+  enable: true
+  repo: owner/repo
+  issueTerm: pathname
+  theme: github-light
 ```
 
 ### RSS

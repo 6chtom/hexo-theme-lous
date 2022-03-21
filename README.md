@@ -71,6 +71,13 @@ mathjax:
   enable: false
   showPageOnRenderFinish: true # MathJax 渲染完成才显示页面
   timeout: 1000 # 1000 毫秒后显示页面，即使 mathjax 没有渲染完成
+
+# Utterances 是一个基于 GitHub Issues 的轻量级评论系统。请查看 https://utteranc.es/
+utterances:
+  enable: true
+  repo: owner/repo
+  issueTerm: pathname
+  theme: github-light
 ```
 
 ### RSS
