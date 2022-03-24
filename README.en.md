@@ -88,7 +88,7 @@ For this plugin's installation and configuration, please check [https://github.c
 
 ### Highlight
 
-To enable highlight you need to enable `hljs` in the site configuration. At the same time, a space should be added between the backticks and the language identifier.
+Enable `hljs` in the site configuration.
 
 ``` yml
 highlight:

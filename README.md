@@ -88,7 +88,7 @@ RSS 功能需要在站点根目录下安装插件 `hexo-generator-feed`。
 
 ### 代码高亮
 
-代码高亮需要启用站点配置中的 `hljs`，同时 Markdown 中代码块开头的语言与反引号之间应该添加空格。
+启用站点配置中的 `hljs`。
 
 ``` yml
 highlight:
