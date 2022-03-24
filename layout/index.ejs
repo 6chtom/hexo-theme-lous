@@ -1,7 +1,8 @@
 <main>
     <div class="main-container">
         <div class="post-list">
-            <% site.posts.forEach(post => { %>
+            <% var posts = site.posts.sort('date', 'desc'); %>
+            <% posts.forEach(post => { %>
                 <div class="post-item">
                     <a href="<%- url_for(post.path) %>"><span class="post-item-date"><%= date(post.date, 'YYYY/MM/DD') %></span> <%- post.title %></a>
                 </div>
