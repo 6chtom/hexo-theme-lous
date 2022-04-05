@@ -34,7 +34,13 @@ setTimeout(function() {document.getElementsByTagName("body")[0].style.opacity = 
 <% } %>
 MathJax.Hub.Config({
     messageStyle: "none",
-    tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+    tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+        displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+        processEscapes: true
+      },
+      "CommonHTML": { linebreaks: { automatic: true } },
+      skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
 });
 </script>
 <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML"></script>
