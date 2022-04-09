@@ -78,6 +78,11 @@ utterances:
   repo: owner/repo
   issueTerm: pathname
   theme: github-light
+
+# Web Analytics
+analytics:
+  enable: true
+  gtag: G-XXXXXXXXXXXX
 ```
 
 ### RSS
