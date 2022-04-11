@@ -69,8 +69,7 @@ rss:
 # MathJax
 mathjax:
   enable: false
-  showPageOnRenderFinish: true 
-  timeout: 1000 # Show page after 1000ms, even if mathjax doesn't finish rendering
+  # cnd: https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.min.js
 
 # Utterances is a lightweight comments widget built on GitHub issues. See https://utteranc.es/
 utterances:
