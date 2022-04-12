@@ -71,6 +71,17 @@ mathjax:
   enable: false
   # cnd: https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.min.js
 
+# KaTeX
+# To use KaTex, you need to uninstall default renderer:
+# $ npm uninstall hexo-renderer-marked --save
+# Then install:
+# $ npm install @upupming/hexo-renderer-markdown-it-plus --save
+# Make sure to execute clean command after installing:
+# $ hexo clean
+katex:
+  enable: false
+  # cdn: https://cdn.jsdelivr.net/npm/katex@0/dist/katex.min.css
+
 # Utterances is a lightweight comments widget built on GitHub issues. See https://utteranc.es/
 utterances:
   enable: true

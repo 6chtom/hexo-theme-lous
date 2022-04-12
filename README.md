@@ -71,6 +71,17 @@ mathjax:
   enable: false
   # cnd: https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.min.js
 
+# KaTeX
+# 使用 KaTeX 需要移除默认的渲染器：
+# $ npm uninstall hexo-renderer-marked --save
+# 然后安装：
+# $ npm install @upupming/hexo-renderer-markdown-it-plus --save
+# 安装完成后执行清理命令：
+# $ hexo clean
+katex:
+  enable: false
+  # cdn: https://cdn.jsdelivr.net/npm/katex@0/dist/katex.min.css
+
 # Utterances 是一个基于 GitHub Issues 的轻量级评论系统。请查看 https://utteranc.es/
 utterances:
   enable: true
